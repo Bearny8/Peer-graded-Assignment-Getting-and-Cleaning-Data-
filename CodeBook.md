@@ -2,22 +2,22 @@ These are the comments associated with coding:
 
 ## there will be two working directory, one for train and one for test
 
-##reading tables                
+## reading tables                
 
 ## changing working directory
 
 ##reading tables
 
-# merging test and taining files
-##summary(total_x)
-##str(total_x)
+## merging test and taining files
+## summary(total_x)
+## str(total_x)
 
 ## changing working directoty one more time
 
-##creating column names using given variables
-#formating as character
+## creating column names using given variables
+## formating as character
 
-##creating one column object
+## creating one column object
 ## assigning column names
 
 ## removing columns that do not have 'mean' or 'std'
@@ -25,14 +25,14 @@ These are the comments associated with coding:
 
 
 
-##assigning activity types
+## assigning activity types
 
 
-##applying activity names to the shorted table
+## applying activity names to the shorted table
 
-##incorporating subject's info
+## incorporating subject's info
 
-##creating tidy data set
+##c reating tidy data set
 
 
 
