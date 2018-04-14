@@ -68,8 +68,10 @@ tidy_data_agg4<-aggregate(tidy_data[6:71], by = list(tidy_data$Subject,tidy_data
 names(tidy_data_agg4)[1]<-"Subject"
 names(tidy_data_agg4)[2]<-"Activity"
 tidy_data_agg4[1:50,1:5]
-newone<-data.frame(tidy_data_agg4$Activity,tidy_data_agg4$Subject,tidy_data_agg4[,3:68])
-names(newone)[1]<-"Activity"
-names(newone)[3]<-"Subject"
-newone[1:35,1:4]
-write.csv(newone,"newone.csv")
+
+tidy_data_final<-data.frame(tidy_data_agg4$Activity,tidy_data_agg4$Subject,tidy_data_agg4[,3:68])
+names(tidy_data_final)[1]<-"Activity"
+names(tidy_data_final)[2]<-"Subject"
+tidy_data_final[1:35,1:4]
+write.csv(tidy_data_final,"tidy_data.csv")
+write.table(tidy_data_final,"tidy_data.txt",row.names = FALSE)
